@@ -1,0 +1,30 @@
+{
+  "name": "gcalf",
+  "version": "1.0.0",
+  "description": "提交到打包服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcalf/npm_build.git"
+  },
+  "bin": {
+    "gcalf": "index.js"
+  },
+  "author": "eoe2005",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcalf/npm_build/issues"
+  },
+  "homepage": "https://github.com/gcalf/npm_build#readme",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.7.7",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
